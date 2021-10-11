@@ -8,6 +8,7 @@
     max-width: 100%;
     height: 50px;
     border: solid 1px rgb(255, 255, 255);
+    
 }
 .container-fluid{
     height: 300px;
@@ -19,5 +20,8 @@
 }
 .container{
     background-color: darkgray;
-    height: 50px;
+    padding: 0;
+}
+.col-4{
+    height: 100px;
 }

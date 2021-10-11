@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* debug */
+[class*="col-"]{
+    max-width: 100%;
+    height: 50px;
+    border: solid 1px rgb(255, 255, 255);
+}
+.container-fluid{
+    height: 300px;
+    background-color:rgba(26,188,156,255); 
+}
+.footer{
+    background-color:rgba(44,62,80,255);
+    height: 50px;
+}
+.container{
+    background-color: darkgray;
+    height: 50px;
+}

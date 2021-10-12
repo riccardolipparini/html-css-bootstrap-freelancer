@@ -81,9 +81,34 @@ header .navbar-collapse{
  .col-2.trattino2{
     border-top: rgb(0, 0, 0) solid 3px;
 }
-.col-6{
-    padding: 0 30px;
-}
-.col-6 p{
+
+main .col p{
     color: white;
+}
+/* footer */
+.container-fluid.blue{
+    padding-top: 20px;
+    background-color:rgba(58,84,109,255);
+    margin-top: 20px;
+}
+footer .col h4{
+    color: white;
+}
+footer .col p{
+    color: white;
+}
+footer .col{
+    text-align: center;
+}
+footer .col i{
+    font-size: 20px;
+    margin: 0 10px;
+}
+.container-fluid.darkblue{
+    background-color: rgba(44,62,80,255);
+    text-align: center;
+    padding-top: 20px;
+}
+.container-fluid.darkblue p{
+     color: white;
 }

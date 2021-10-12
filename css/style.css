@@ -81,6 +81,9 @@ header .navbar-collapse{
  .col-2.trattino2{
     border-top: rgb(0, 0, 0) solid 3px;
 }
-.col-4 p{
+.col-6{
+    padding: 0 30px;
+}
+.col-6 p{
     color: white;
 }

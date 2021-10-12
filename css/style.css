@@ -4,24 +4,83 @@
     box-sizing: border-box;
 }
 /* debug */
-[class*="col-"]{
-    max-width: 100%;
-    height: 50px;
-    border: solid 1px rgb(255, 255, 255);
-    
-}
-.container-fluid{
-    height: 300px;
-    background-color:rgba(26,188,156,255); 
-}
-.footer{
-    background-color:rgba(44,62,80,255);
-    height: 50px;
-}
-.container{
-    background-color: darkgray;
+
+
+/* nav */
+.navbar{
     padding: 0;
 }
-.col-4{
-    height: 100px;
+.container-fluid.navigazione{
+    background-color:rgba(44,62,80,255);
+}
+.container-fluid.navigazione a{
+    color: white;
+}
+header .navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+header .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: white;
+}
+header .navbar-collapse{
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+.navbar-light .navbar-toggler{
+    border-color: white;
+}
+.navbar-brand{
+    margin-left: 200px;
+}
+
+/* jambo */
+
+.container-fluid.azure{
+    background-color:rgba(26,188,156,255);
+    padding-bottom: 10px;
+}
+.col.profile{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200px;
+}
+.col.profile img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+.row.text{
+   text-align: center;
+    color: white;
+}
+.col-2.trattino{
+    border-top: white solid 3px;
+}
+.col-2 i{
+    font-size: 30px;
+}
+.col-12.flex{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.col-12.flex h3{
+    color: white;
+}
+
+/* main */
+.col.port{
+    text-align: center;
+    margin-top: 20px;
+}
+.row.text2{
+    text-align: center;
+     color: black
+ }
+ .col-2.trattino2{
+    border-top: rgb(0, 0, 0) solid 3px;
+}
+.col-4 p{
+    color: white;
 }
